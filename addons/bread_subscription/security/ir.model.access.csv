@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_bread_subscription_user,bread.subscription user,model_bread_subscription,base.group_user,1,1,1,0
+access_bread_subscription_manager,bread.subscription manager,model_bread_subscription,base.group_erp_manager,1,1,1,1
+access_bread_subscription_delivery_user,bread.subscription.delivery user,model_bread_subscription_delivery,base.group_user,1,1,1,0
+access_bread_subscription_delivery_manager,bread.subscription.delivery manager,model_bread_subscription_delivery,base.group_erp_manager,1,1,1,1

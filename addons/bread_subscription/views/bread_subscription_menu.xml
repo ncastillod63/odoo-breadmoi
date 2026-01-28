@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Acciones -->
+    <record id="bread_subscription_action" model="ir.actions.act_window">
+        <field name="name">Suscripciones</field>
+        <field name="res_model">bread.subscription</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="bread_subscription_tree_view"/>
+    </record>
+
+    <record id="bread_subscription_delivery_action" model="ir.actions.act_window">
+        <field name="name">Entregas</field>
+        <field name="res_model">bread.subscription.delivery</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="bread_subscription_delivery_tree_view"/>
+    </record>
+
+    <!-- Menú -->
+    <menuitem
+        id="menu_bread_subscription_root"
+        name="Suscripciones de Pan"
+        sequence="10"/>
+
+    <menuitem
+        id="menu_bread_subscription"
+        parent="menu_bread_subscription_root"
+        name="Suscripciones"
+        action="bread_subscription_action"
+        sequence="10"/>
+
+    <menuitem
+        id="menu_bread_subscription_delivery"
+        parent="menu_bread_subscription_root"
+        name="Entregas"
+        action="bread_subscription_delivery_action"
+        sequence="20"/>
+
+</odoo>
