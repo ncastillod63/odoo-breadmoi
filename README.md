@@ -48,33 +48,9 @@ El costo del pan se calcula a partir de:
 Insumos + costos indirectos (fuera de Odoo)
 
 👥 Trabajo en equipo (Git)
-Flujo recomendado
 
 main: rama estable
 
-feature/nombre-cambio: una rama por cambio o mejora
-
-Ejemplo:
-
-git checkout -b feature/costos-pan
-git add .
-git commit -m "Ajuste de costos estándar del pan"
-git push -u origin feature/costos-pan
-
-
-Luego abrir Pull Request en GitHub.
-
-🚫 Archivos que NO se suben al repo
-
-Base de datos
-
-Volúmenes Docker
-
-Filestore de Odoo
-
-Archivos con contraseñas reales
-
-Estos ya están excluidos en el .gitignore.
 
 🏷️ Proyecto académico / práctico
 
