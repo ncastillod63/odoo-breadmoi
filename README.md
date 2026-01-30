@@ -4,7 +4,7 @@ Database name: bread_moi
 
 Email: admin@breadmoi.com
 
-Password: (definir por el equipo)
+Password: Qwe.123*
 
 Language: Spanish (CO)
 
